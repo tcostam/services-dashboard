@@ -1,20 +1,14 @@
 [
   {
     "name": "TFSports API",
-    "health_check_url": "http://api.tfsports.com.br/v1/ping",
-    "message": "",
+    "health_check_url": "https://api.tfsports.com.br/v1/ping",
+    "message": "Unhealthy for 16 sec",
     "status": "up"
   },
   {
     "name": "TFSports Admin",
-    "health_check_url": "http://api.tfsports.com.br/v1/ping",
-    "message": "",
-    "status": "up"
-  },
-  {
-    "name": "Peggou API",
-    "health_check_url": "http://api.tfsports.com.br/v1/ping",
-    "message": "",
+    "health_check_url": "https://admin.tfsports.com.br",
+    "message": "Unhealthy for 16 sec",
     "status": "up"
   }
 ]
