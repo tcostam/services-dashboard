@@ -1,0 +1,20 @@
+[
+  {
+    "name": "TFSports API",
+    "health_check_url": "http://api.tfsports.com.br/v1/ping",
+    "message": "",
+    "status": "up"
+  },
+  {
+    "name": "TFSports Admin",
+    "health_check_url": "http://api.tfsports.com.br/v1/ping",
+    "message": "",
+    "status": "up"
+  },
+  {
+    "name": "Peggou API",
+    "health_check_url": "http://api.tfsports.com.br/v1/ping",
+    "message": "",
+    "status": "up"
+  }
+]

@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 import ServiceCard from './components/ServiceCard';
+import logo from './image/logo.png';
+import axios from 'axios';
 import './App.css';
 
+setInterval(function(){
+  // axios.get('https://api.tfsports.com.br/v1/ping')
+  //   .then(response => console.log(response))
+}, 5000);
+
 class App extends Component {
+
   render() {
     return (
       <div className="app">
         <header className="sd-header">
           <div className="sd-logo">
             <div className="image">
-              <img src="/image/logo.png"></img>
+              <img src={logo}></img>
             </div>
             <div className="title">Services Dashboard</div>
           </div>
