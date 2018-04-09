@@ -1,0 +1,111 @@
+.app {
+  background-color: #2D3132;
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.sd-header {
+  height: 60px;
+  background-color: #B81921;
+  width: 100%;
+  padding: 0 42px;
+}
+
+.sd-logo {
+  height: 100%;
+  margin-left: 21px;
+  position: relative;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.sd-logo > .image {
+  display: inline-block;
+  height: 100%;
+  float: left;
+}
+
+.sd-logo > .image > img {
+  height: 100%;
+}
+
+.sd-logo > .title {
+  display: inline-block;
+  margin: 0 24px;
+  /* font-family: AvenirNext; */
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 100%;
+  float: left;
+  line-height: 40px;
+}
+
+.app-content {
+  padding: 0 42px;
+  height: calc(100% - 110px);
+}
+
+.app-content > .dashboard {
+  margin: 25px 0;
+  height: 100%;
+}
+
+.services-column {
+  background-color: #505455;
+  width: 30%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.logs-column {
+  background-color: #e8e8e8;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 28px;
+  margin-left: 30%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.service-card {
+  height: 71px;
+  border-bottom: solid 1px #2d3132;
+}
+
+.service-card > .icon {
+  float: left;
+  height: 100%;
+  padding: 15px 21px;
+  box-sizing: border-box;
+  line-height: 100%;
+}
+
+.service-card > .icon > .circle {
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  text-align: center;
+}
+
+.service-card > .icon > .circle svg {
+  margin-top: 6px;
+}
+
+.service-card > .info {
+  color: white;
+  padding: 9px;
+}
+
+.service-card > .info > .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service-card > .info > .text {
+  font-size: 10px;
+  line-height: 1.5;
+}
